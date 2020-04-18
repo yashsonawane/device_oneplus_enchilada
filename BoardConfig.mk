@@ -24,3 +24,5 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # inherit from the proprietary version
 -include vendor/oneplus/enchilada/BoardConfigVendor.mk
+
+TARGET_OTA_ASSERT_DEVICE := oneplus6,oneplus6t,OnePlus6,OnePlus6T,enchilada,fajita
